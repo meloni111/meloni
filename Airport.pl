@@ -21,6 +21,3 @@ can_transport(Cargo, Origin, Destination, DepartureTime, ArrivalTime, FlightNumb
 
 % Check if electronics can be transported from JFK to SFO.
 % ?- can_transport(electronics, jfk, sfo, _, _, _).
-
-
-
