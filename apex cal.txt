@@ -1,0 +1,24 @@
+public class calculator {
+    public static Decimal add(Decimal num1,Decimal num2){
+        system.debug(num1+num2);
+        return(num1+num2);
+    }
+    public static Decimal sub(Decimal num1,Decimal num2){
+        system.debug(num1-num2);
+        return(num1-num2);
+    }
+    public static Decimal mult(Decimal num1,Decimal num2){
+        system.debug(num1*num2);
+        return(num1*num2);
+    }
+    public static Decimal div(Decimal num1,Decimal num2){
+        if(num2==0){
+            return Null;
+        }
+        else
+        {
+            system.debug(num1/num2);
+            return(num1/num2);
+        }        
+    }
+}

@@ -1,0 +1,4 @@
+sudo apt install
+sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
+sudo virt-install --name myvm --ram 1024 --disk path=/var/lib/libvirt/images/myvm.img,size=10 --vcpus 1 --os-type linux --os-variant ubuntu18.04 --network bridge=br0 --graphics none
+sudo virsh start myvm
